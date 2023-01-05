@@ -72,7 +72,7 @@ ul {
   padding-left: 18%;
   padding-right: 18%;
   display: flex;
-  flex-direction: row; /*displays element horizontally (paragraphs)*/
+  flex-direction: row; /*displays elements horizontally (paragraphs)*/
   list-style-type: none; /*deleted dotes for list items*/
   border-radius: 0.5rem;
 }
