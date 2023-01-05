@@ -71,7 +71,7 @@ body {
 
 
 ul {
-  padding-top: 10%;
+  padding-top: 13%;
   padding-left: 18%;
   padding-right: 18%;
   display: flex;
@@ -91,6 +91,7 @@ main li {
   font-family: "Big Shoulders Display";
   font-weight: 700;
   margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }
 
 .class__image {
