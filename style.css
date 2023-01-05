@@ -65,7 +65,10 @@ body {
   font-family: "Lexend Deca";
   font-size: 0.94rem;
   font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
 }
+
+
 
 ul {
   padding-top: 10%;
@@ -98,6 +101,8 @@ main li {
   font-family: "Lexend Deca";
   font-weight: 400;
   margin-bottom: 5.2rem;
+  line-height: 1.5rem;
+  opacity: 75%;
 }
 
 .Sedans {
