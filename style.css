@@ -68,10 +68,8 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
-
-
 ul {
-  padding-top: 12%;
+  padding-top: 11%;
   padding-left: 18%;
   padding-right: 18%;
   display: flex;
@@ -169,4 +167,17 @@ main li {
     border-bottom-right-radius: 0.5rem;
     border-top-right-radius: 0;
   }
+}
+
+/* Hiding class, making content visible only to screen readers but not visually */
+/* "sr" meaning "screen-reader" */
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
